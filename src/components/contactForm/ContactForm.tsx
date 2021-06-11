@@ -1,7 +1,7 @@
 import React, { useState, FormEvent, useContext } from 'react';
 
 const ContactForm = () => {
-    const [name, setName] = useState<string>("");
+    const [name, setName] = useState<string>("HOLA");
     const [email, setEmail] = useState<string>("");
     const [message, setMessage] = useState<string>("");
 
